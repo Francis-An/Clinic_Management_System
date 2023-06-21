@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="112.0" fitWidth="382.0" layoutX="59.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="46.0" layoutY="353.0" text="ACCRA TECHNICAL UNIVERSITY CLINIC" textFill="#1c4a7e">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="145.0" layoutY="306.0" text="WELCOME TO" textFill="#1c4a7e">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="500.0" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: #1C4A7E;">
+         <children>
+            <Label layoutX="74.0" layoutY="14.0" text="ACCESS YOUR ACCOUNT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <JFXTextField focusColor="WHITE" labelFloat="true" layoutX="94.0" layoutY="244.0" prefHeight="31.0" prefWidth="375.0" promptText="Username" unFocusColor="WHITE" />
+            <JFXPasswordField focusColor="WHITE" labelFloat="true" layoutX="94.0" layoutY="315.0" prefHeight="31.0" prefWidth="375.0" promptText="Password" unFocusColor="WHITE" />
+            <JFXButton layoutX="177.0" layoutY="412.0" onAction="#singin" prefHeight="54.0" prefWidth="169.0" style="-fx-background-color: #D0A73B;" text="Sign in" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="74.0" layoutY="519.0" prefHeight="39.0" prefWidth="158.0" style="-fx-background-color: #2688ff;" text="CONTINUE WITH" textFill="WHITE">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="291.0" layoutY="519.0" prefHeight="39.0" prefWidth="158.0" style="-fx-background-color: RED;" text="CONTINUE WITH" textFill="WHITE">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="94.0" layoutY="374.0" text="Forgot your password?" textFill="WHITE" />
+            <Label layoutX="254.0" layoutY="476.0" text="or" textFill="WHITE" />
+            <FontAwesomeIconView fill="WHITE" glyphName="LOCK" layoutX="67.0" layoutY="334.0" size="22" text="" translateY="5.0" />
+            <MaterialDesignIconView fill="WHITE" glyphName="ACCOUNT_CIRCLE" layoutX="63.0" layoutY="259.0" size="22" translateY="8.0" />
+            <MaterialDesignIconView fill="WHITE" glyphName="FACEBOOK" layoutX="77.0" layoutY="546.0" size="22" />
+            <MaterialDesignIconView fill="WHITE" glyphName="GMAIL" layoutX="299.0" layoutY="546.0" size="22" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="187.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/1177568-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
